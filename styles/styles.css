@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  color: #3e3e3e;
+  box-sizing: border-box;
+}
+
+.gray-icon * {
+  color: #949EB2;
+  transition-timing-function: ease-in-out;
+  transition-duration: .3s;
+}
+
+.gray-icon:hover * {
+  color: #394356;
+}
+
+.white-icon * {
+  color: white;
+}
